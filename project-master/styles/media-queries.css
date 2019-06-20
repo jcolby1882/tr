@@ -1,0 +1,6 @@
+@media (max-width:615px) {
+    .navagation-wrapper{
+        flex-direction:column;
+        height: 100%;
+    }
+}
