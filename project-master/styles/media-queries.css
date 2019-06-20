@@ -3,4 +3,32 @@
         flex-direction:column;
         height: 100%;
     }
+    
+    .navagation-wrapper > .left-collumn {
+        order: 2;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .navagation-wrapper > .center-column {
+        order: 1;
+        width: 100%;
+    }
+
+    .navagation-wrapper > .right-column {
+        order: 3;
+        margin-top: 15px;
+    }
+
+    .links-wrapper {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .links-wrapper > .nav-link {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        width: 100%
+    }
 }
